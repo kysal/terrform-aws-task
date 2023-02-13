@@ -1,5 +1,3 @@
-
-
 resource "aws_instance" "server_1" {
   ami = "ami-08cd358d745620807"
   instance_type = "t3.small"
