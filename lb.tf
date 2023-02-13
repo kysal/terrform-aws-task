@@ -13,7 +13,6 @@ resource "aws_lb_target_group" "lb_group" {
   name = "kyle-lb-tg"
   vpc_id = "vpc-033261a13b736a250"
 
-  # Unsure what this does
   port = 80
   protocol = "TCP"
 
