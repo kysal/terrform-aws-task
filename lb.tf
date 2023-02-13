@@ -7,7 +7,6 @@ resource "aws_lb" "load_balancer" {
     "subnet-03fc2475c68b57df6",
     "subnet-049bc4534aa922545"
    ]
-   security_groups = [ aws_security_group.security_group.id ]
 }
 
 resource "aws_lb_target_group" "lb_group" {
